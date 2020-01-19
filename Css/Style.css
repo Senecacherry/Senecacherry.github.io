@@ -1,6 +1,33 @@
-#navItems {
-    align-content: right;
+#emailInput {
+    margin-top: 25px;
+    width: 400px;
 }
+
+#helpInput {
+    margin-top: 10px;
+    width: 500px;
+}
+
+#nameInput {
+    margin-top: 10px;
+    width: 400px;
+}
+
+#navItems {
+    padding-left: 1200px;
+}
+
+#numberInput {
+    margin-top: 10px;
+    width: 400px;
+}
+
 #siteForm {
-    align-content: center;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.submitBtn {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }

@@ -50,19 +50,37 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <form id="siteForm"
+  <div class="input-group" id="siteForm">
+  <form 
     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScJqm5gqLc__j81pWc8dbhPxrDP4zVC9V5K6piyjmfZudXAew/formResponse"
     target="_self" method="POST" id="mG61Hd">
-    <label>Email Address:</label>
-    <input name="emailAddress" />
-    <label>Name:</label>
-    <input name="entry.847997614" />
-    <label>Phone Number:</label>
-    <input name="entry.1344698569" />
-    <label>How Can I help you?</label>
-    <textarea name="entry.481933219"></textarea>
-    <button name="submit">Submit</button>
+    <div id="emailInput" class="input-group">
+      <div class="input-group-prepend">
+    <label class="input-group-text">Email Address:</label>
+  </div>
+    <input type="text" class="form-control" name="emailAddress" />
+  </div>
+  <div id="nameInput" class="input-group">
+    <div class="input-group-prepend">
+    <label class="input-group-text">Name:</label>
+  </div>
+    <input type="text" class="form-control" name="entry.847997614" />
+  </div>
+  <div id="numberInput" class="input-group">
+    <div class="input-group-prepend">
+    <label class="input-group-text">Phone Number:</label>
+  </div>
+    <input type="text" class="form-control" name="entry.1344698569" />
+  </div>
+  <div id="helpInput" class="input-group">
+    <div class="input-group-prepend">
+    <label class="input-group-text">How can I help you?</label>
+  </div>
+    <textarea class="form-control" name="entry.481933219"></textarea>
+  </div>
+    <button type="button" class="btn btn-success submitBtn" name="submit">Submit</button>
   </form>
+</div>
 </body>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
