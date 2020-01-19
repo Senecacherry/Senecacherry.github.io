@@ -8,13 +8,17 @@
     width: 500px;
 }
 
+.imageHeight {
+    height: 1000px !important;
+}
+
 #nameInput {
     margin-top: 10px;
     width: 400px;
 }
 
 #navItems {
-    padding-left: 1200px;
+    padding-left: 1300px;
 }
 
 #numberInput {
