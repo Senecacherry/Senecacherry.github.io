@@ -1,6 +1,19 @@
+.card {
+    max-height: 230px;
+    min-height: 230px;
+    max-width: 450px;
+    min-width: 450px;
+}
+
 #emailInput {
     margin-top: 25px;
     width: 400px;
+}
+
+.formHeader {
+    padding-left:50px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 #helpInput {
@@ -17,8 +30,16 @@
     width: 400px;
 }
 
-#navItems {
-    padding-left: 1300px;
+.navbarHamburger {
+    color: white;
+}
+
+.navItems {
+    padding-left: 1800px;
+}
+
+.navItemsContact {
+    padding-left: 1595px;
 }
 
 #numberInput {
@@ -26,12 +47,11 @@
     width: 400px;
 }
 
-#siteForm {
-    padding-left: 50px;
-    text-align: center;
-}
-
 .submitBtn {
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+.webForm {
+    align-content: center;
 }

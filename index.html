@@ -19,8 +19,8 @@
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div id="navItems" class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav navItems">
         <a class="nav-item nav-link text-light" href="index.html">Home</a>
         <a class="nav-item nav-link active text-light" href="AboutMe.html">About Me<span
             class="sr-only">(current)</span></a>
@@ -50,7 +50,11 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <div class="input-group" id="siteForm">
+  <div class="webForm">
+  <div class="input-group">
+    <div class="formHeader">
+    <h3>Contact Me:</h3>
+  </div>
   <form 
     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScJqm5gqLc__j81pWc8dbhPxrDP4zVC9V5K6piyjmfZudXAew/formResponse"
     target="_self" method="POST" id="mG61Hd">
@@ -80,6 +84,7 @@
   </div>
     <button type="button" class="btn btn-success submitBtn" name="submit">Submit</button>
   </form>
+</div>
 </div>
 </body>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
